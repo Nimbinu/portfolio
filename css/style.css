@@ -665,6 +665,8 @@ span{
 .resume-item.geekzone-group {
     position: relative;
     overflow: hidden;
+    height: 100% !important;
+    min-height: 450px;
 }
 
 .geekzone-images-frame {
@@ -681,6 +683,7 @@ span{
 .geekzone-image-container {
     width: 100%;
     height: 200px;
+    min-height: 180px;
     border-radius: 0.8rem;
     overflow: hidden;
     border: 2px solid rgba(255, 255, 255, 0.1);
